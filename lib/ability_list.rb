@@ -35,8 +35,8 @@ class AbilityList
   end
 
   # Inverse of `can?`.
-  def cannot?(verb, object=nil, columns)
-    ! can?(verb, object, columns)
+  def cannot?(verb, object=nil, columns=[])
+    !can?(verb, object, columns)
   end
 
   # ---
