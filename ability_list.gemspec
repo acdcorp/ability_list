@@ -1,7 +1,7 @@
 require './lib/ability_list/version'
 
 Gem::Specification.new do |s|
-  s.name = "ability_list-cj"
+  s.name = "ability_list"
   s.version = AbilityList::VERSION
   s.summary = %[Simple user permissions management.]
   s.description = %[A very simple way to manage permissions. Works with any ORM.]
