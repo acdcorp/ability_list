@@ -1,6 +1,10 @@
 class AbilityList
   Error = Class.new(StandardError)
 
+  def self.version
+    VERSION
+  end
+
   # Returns a list of rules. These are populated by `can` and `cannot`.
   # (Rules are tuples)
   def rules
